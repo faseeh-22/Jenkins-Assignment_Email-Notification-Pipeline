@@ -87,7 +87,8 @@ pipeline {
 ``` 
  
 **NOTE:** The following lines
-```emailext subject: 'Pipeline Success',
+```
+emailext subject: 'Pipeline Success',
             	body: 'The pipeline has succeeded. All stages completed successfully.',
             	to: 'moonstar322023@gmail.com'
 ```
