@@ -90,8 +90,8 @@ pipeline {
 **NOTE:** The following lines
 ```
 emailext subject: 'Pipeline Success',
-            	body: 'The pipeline has succeeded. All stages completed successfully.',
-            	to: 'moonstar322023@gmail.com'
+    body: 'The pipeline has succeeded. All stages completed successfully.',
+    to: 'moonstar322023@gmail.com'
 ```
 can be generated through pipeline syntax or snippet generator. To create these lines follow the below steps:
  
